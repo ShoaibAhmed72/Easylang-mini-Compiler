@@ -1,0 +1,9 @@
+[project]
+name = "easylang-studio"
+version = "1.1.0"
+description = "EasyLang compiler and modern PySide6 desktop IDE"
+requires-python = ">=3.10"
+dependencies = ["PySide6>=6.6,<7"]
+
+[tool.unittest]
+start-directory = "tests"
